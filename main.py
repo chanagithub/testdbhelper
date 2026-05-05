@@ -31,7 +31,7 @@ def setup_view():
     data_source.action = item_selected
     
     v.add_subview(table)
-    v.present('sheet')
+    v.present('fullscreen')
 
 if __name__ == '__main__':
     setup_view()
