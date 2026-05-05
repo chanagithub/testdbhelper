@@ -1,4 +1,7 @@
 import ui
+import os
+print("โฟลเดอร์ปัจจุบันคือ:", os.getcwd())
+print("ไฟล์ที่มีในโฟลเดอร์นี้:", os.listdir())
 import db_helper
 
 def setup_view():
