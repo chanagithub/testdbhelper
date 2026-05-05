@@ -3,7 +3,7 @@ import db_helper
 
 def setup_view():
     # 1. เรียกข้อมูลจากฐานข้อมูล
-    # ดึงรายชื่อ symbol ที่ไม่ซ้ำจากตาราง lots ในไฟล์ stocksbi2569.db
+    # ดึงรายชื่อ symbol ที่ไม่ซ้ำจากตาราง lots ในไฟล์ stocksbi2569.db  test for iphone
     dropdown_items = db_helper.get_unique_list('stocksbi2569.db', 'lots', 'symbol')
 
     # 2. สร้างหน้าจอหลัก (Main View)
