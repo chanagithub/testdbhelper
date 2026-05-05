@@ -4,7 +4,7 @@ import db_helper
 def setup_view():
     # 1. เรียกข้อมูลจากโมดูล (ระบุชื่อไฟล์, ตาราง, และฟิลด์)
     # สมมติว่าไฟล์ชื่อ data.sqlite ตารางชื่อ products ฟิลด์ชื่อ category
-    dropdown_items = db_helper.get_unique_list('data.sqlite', 'products', 'category')
+    dropdown_items = db_helper.get_unique_list('stocksbi2569.db', 'lots', 'symbol')
 
     # 2. สร้างหน้าจอ UI
     v = ui.View()
